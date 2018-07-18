@@ -1,0 +1,11 @@
+Package: ExampleIRLBA
+Type: Package
+Title: Call IRLBA from RcppArmadillo
+Version: 0.0
+Date: 2018-07-15
+Author: person("Zachary", "Kurtz", role=c("aut","cre","cph"), email="zdkurtz@gmail.com"))
+Description: An example package to demonstrate calling irlba c code using Rcpp / Armadillo. Only works with my irlba fork: https://github.com/zdk123/irlba
+License: GPL-3
+Imports: Rcpp (>= 0.12.17), irlba
+LinkingTo: Rcpp, RcppArmadillo, irlba
+RoxygenNote: 6.0.1
